@@ -1,3 +1,3 @@
 FROM maven:alpine
 
-RUN /apk-install eudev-libs
+RUN apk add --no-cache eudev-libs
